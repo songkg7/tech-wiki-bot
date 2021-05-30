@@ -1,1 +1,1 @@
-# Tech-interviewer-Bot
+# Tech-wiki-Bot
