@@ -1,7 +1,7 @@
 import telegram
 from telegram.ext import Updater, MessageHandler, Filters
 
-token = "1818082592:AAGBAMdVthuzAGQsysDkXMhBDwjw6EvsYbQ"
+token = "1807876226:AAEd1cxYIymbr9VzrWOeln_BNXcyCcd87q4"
 bot = telegram.Bot(token=token)
 
 # chat_id = bot.getUpdates()[-1].message.chat_id
