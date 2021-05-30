@@ -45,6 +45,9 @@ def handler(update, context):
     elif "자바" in user_text:
         bot.sendMessage(chat_id=chat_id, text=java_info)
 
+    elif "python" or "파이썬" in user_text:
+        bot.sendMessage(chat_id=chat_id, text=python_info)
+
 
 echo_handler = MessageHandler(Filters.text, handler)
 dispatcher.add_handler(echo_handler)
