@@ -4,6 +4,8 @@ from telegram.ext import Updater, MessageHandler, Filters
 token = "1807876226:AAEd1cxYIymbr9VzrWOeln_BNXcyCcd87q4"
 bot = telegram.Bot(token=token)
 
+# 본인의 chat_id를 알아내는 과정이 필요합니다.
+# chat_id 를 맞게 수정해주세요.
 # chat_id = bot.getUpdates()[-1].message.chat_id
 chat_id = 940986442
 
